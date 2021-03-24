@@ -1,5 +1,5 @@
-// const name = 'John';
-// document.body.innerHTML = `<h1>Hello ${name}</h1>`
+// const namee = 'John';
+// document.body.innerHTML = `<h1>Hello ${namee}</h1>`
 
 
 class Person{
@@ -14,7 +14,7 @@ class Person{
     }
 
     Show(){
-        return `Witaj ${this.imie} i ${this.nazwisko} mam ${this.wiek} lat`
+        return document.body.innerHTML = `Witaj ${this.imie} i ${this.nazwisko} mam ${this.wiek} lat`
     }
 }
 

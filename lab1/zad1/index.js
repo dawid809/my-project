@@ -1,5 +1,5 @@
-// const name = 'John';
-// document.body.innerHTML = `<h1>Hello ${name}</h1>`
+// const namee = 'John';
+// document.body.innerHTML = `<h1>Hello ${namee}</h1>`
 var Person = /** @class */ (function () {
     function Person(imie, nazwisko, wiek) {
         this.imie = imie;
@@ -7,7 +7,7 @@ var Person = /** @class */ (function () {
         this.wiek = wiek;
     }
     Person.prototype.Show = function () {
-        return "Witaj " + this.imie + " i " + this.nazwisko + " mam " + this.wiek + " lat";
+        return document.body.innerHTML = "Witaj " + this.imie + " i " + this.nazwisko + " mam " + this.wiek + " lat";
     };
     return Person;
 }());
